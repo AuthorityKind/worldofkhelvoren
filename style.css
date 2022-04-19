@@ -1,0 +1,195 @@
+@font-face {
+  font-family: Draconis;
+  src: url("fonts/Draconis.otf");
+}
+@font-face {
+  font-family: MrsEaves;
+  src: url("fonts/MrsEavesSmallCaps.TTF");
+}
+@font-face {
+  font-family: Bookman;
+  src: url("fonts/Bookman.TTF");
+}
+
+a.hide-link {
+  color: black;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*Index Stuff (mostly)*/
+h1.site-name {
+  font-family: Draconis;
+  text-align: center;
+  margin: auto;
+  font-size: clamp(70px, 5vw, 400px);
+}
+article.index {
+  margin: auto;
+}
+.menu-subheader {
+  font-family: Draconis;
+  font-size: clamp(50px, 3.5vw, 300px);
+}
+.menu-text {
+  font-family: Bookman;
+  font-size: clamp(30px, 1.8vw, 200px);
+}
+
+/*universal page stuff*/
+h1.home-button {
+  font-family: Draconis;
+  text-align: left;
+  margin: auto;
+  font-size: clamp(30px, 2.5vw, 100px);
+  padding-left: 2vw;
+}
+.page-title {
+  font-family: Draconis;
+  text-align: left;
+  font-size: clamp(50px, 4.3vw, 300px);
+  padding: 0vw 0px 0px 10vw;
+}
+h2.class-origin{
+  font-family: Draconis;
+  font-size: clamp(25px, 2.3vw, 70px);
+  font-style: italic;
+  margin: auto auto -3vw auto;
+  padding: 2vw 0px 0px 10vw;
+}
+p.credits {
+  font-family: Bookman;
+  font-style: italic;
+  text-align: left;
+  font-size: clamp(15px, 1vw, 80px);
+  padding: 0px 0px 1.5vw 10vw;
+  margin-top: clamp(-40px, -2.5vw, -120px);
+}
+p.fluff{
+  font-family: Bookman;
+  font-size: clamp(15px, 1.1vw, 30px);
+  margin-top: clamp(-20px, -1vw, -10px);
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left;
+}
+.return {
+  font-family: Draconis;
+  font-style: italic;
+  text-align: left;
+  font-size: clamp(20px, 1.5vw, 80px);
+  padding-left: 2vw;
+  padding-top: 0.4vw;
+  margin: auto;
+}
+p.text {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left;
+  margin: auto;
+  font-family: Bookman;
+  font-size: clamp(13px, 0.95vw, 25px);
+}
+
+/*Class Table*/
+
+article.class-table {
+  font-size: clamp(10px, 1vw, 100px);
+  padding-left: 0.6vw;
+  padding-right: 0.6vw;
+}
+.table-subheader {
+  font-size: clamp(12px, 1.1vw, 100px);
+  border-bottom: 2px dotted black;
+}
+.table-long-subheader {
+  font-size: clamp(12px, 1.1vw, 100px);
+  min-width: 130px;
+  border-bottom: 2px dotted black;
+}
+.table-features-subheader {
+  font-size: clamp(12px, 1.1vw, 100px);
+  min-width: 10px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  border-bottom: 2px dotted black;
+}
+.features-cells {
+  text-align: left;
+  min-width: 220px;
+}
+
+/*Spellcasting Table*/
+.table-canknow-subheader {
+  font-size: clamp(10px, 1vw, 100px);
+  max-width: 60px;
+  border-bottom: 2px dotted black;
+}
+.table-short-subheader {
+  font-size: clamp(10px, 1vw, 100px);
+  max-width: 50px;
+  border-bottom: 2px dotted black;
+}
+.table-slot-subheader {
+  font-size: clamp(10px, 1vw, 100px);
+  max-width: 70px;
+  border-bottom: 2px dotted black;
+}
+
+/*Class Propperties*/
+h2.propperty {
+  font-family: Draconis;
+  font-size: clamp(35px, 3vw, 100px);
+  margin-bottom: clamp(-15px, -1vw, -5px);
+}
+p.propperty {
+  font-family: Bookman;
+  font-size: clamp(15px, 1.1vw, 30px);
+  margin-bottom: clamp(-15px, -0.9vw, -8px);
+}
+div.propperty {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left;
+}
+
+/*Features*/
+h2.feature {
+  font-family: Draconis;
+  font-size: clamp(30px, 2.1vw, 45px);
+  margin-bottom: clamp(-10px, -0.8vw, -5px);
+}
+p.feature-subheader {
+  font-family: Bookman;
+  font-size: clamp(17px, 1.1vw, 35px);
+  margin-bottom: clamp(-15px, -0.6vw, -10px);
+}
+p.feature {
+  font-family: Bookman;
+  font-size: clamp(15px, 1vw, 30px);
+}
+p.feature-saveDC {
+  font-family: Bookman;
+  font-size: clamp(15px, 1vw, 30px);
+  padding-left: 3vw;
+}
+div.feature {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: left;
+  margin: auto;
+}
+
+/*Subclass List*/
+table.subclass {
+  display: inline;
+  text-align: left;
+}
+.subclass {
+  font-family: Draconis;
+  font-size: clamp(19px, 1.8vw, 45px);
+  margin: 0px 2vw 0px 0vw;
+  min-width: 140px;
+}
