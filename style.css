@@ -20,21 +20,39 @@ a {
 }
 
 /*Index Stuff (mostly)*/
-h1.site-name {
+div.site-name{
   font-family: Draconis;
   text-align: center;
   margin: auto;
-  font-size: clamp(70px, 5vw, 400px);
+  padding-bottom: 4vw;
 }
+h1.site-name {
+  font-size: clamp(70px, 5vw, 400px);
+  margin: auto;
+}
+h2.site-name{
+  font-size: clamp(40px, 3vw, 200px);
+  margin: auto;
+}
+p.site-text {
+  padding: 1vw 10vw 0px 10vw;
+  text-align: center;
+  margin: auto;
+  font-family: Bookman;
+  font-size: clamp(8px, 1.5vw, 30px);
+}
+
 article.index {
   margin: auto;
 }
+div.menu{
+  padding: 2vw 10vw 2vw 10vw;
+}
 #menu{
   background-color: rgb(163, 179, 216, 0.2);
-  border: 2px groove rgb(122, 129, 156, 0.3);
+  border: 4px groove rgb(122, 129, 156, 0.3);
 }
 .menu-header {
-  padding-left: 5vw;
   font-family: Draconis;
   font-size: clamp(40px, 4.5vw, 300px);
   margin: auto;
@@ -45,6 +63,11 @@ article.index {
 .menu-option {
   font-family: Draconis;
   font-size: clamp(10px, 3vw, 200px);
+  margin: auto;
+}
+.menu-option-race {
+  font-family: Draconis;
+  font-size: clamp(8px, 2vw, 150px);
   margin: auto;
 }
 .menu-suboption {
