@@ -12,33 +12,350 @@
     section {
       display: flex;
       text-align: center;
-      padding-top: 4em;
-      padding-right: 2%;
+      margin: auto;
     }
+    #option {
+      text-align: left;
+    }
+    
+    
   </style>
   <scaling></scaling>
   <body>
     <h1 class="site-name">Khelvoren</h1>
 
-    <section class="container">
-      <article class="index">
-        <h2 class="menu-subheader">Classes</h2>
-        <a class="hide-link" href="classes/Fighter/fighter.html">
-          <p class="menu-text">Fighter</p>
-        </a>
-      </article>
-      <article class="index">
-        <h2 class="menu-subheader">Races</h2>
-        <a class="hide-link" href="races/human.html">
-          <p class="menu-text">Human</p>
-        </a>
-      </article>
-      <article class="index">
-        <h2 class="menu-subheader">Other</h2>
-        <a class="hide-link" href="other/feats.html">
-          <p class="menu-text">Feats</p>
-        </a>
-      </article>
-    </section>
+    <div>
+      <h2 class="menu-header">Classes</h2>
+      <section class="container" id="menu">
+        <article class="index" id="option">
+          <!--Artificer-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Artificer/artificer.html"> <p class="menu-option">Artificer</p> </a>
+          </div>
+          
+          <!--Bard-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Bard/bard.html"> <p class="menu-option">Bard</p> </a>
+          </div>
+          
+          <!--Barbarian-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Barbarian/barbarian.html"> <p class="menu-option">Barbarian</p> </a>
+          </div>
+        </article>
+        <article class="index" id="option">
+          <!--Cleric-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Cleric/cleric.html"> <p class="menu-option">Cleric</p> </a>
+          </div>
+
+          <!--Druid-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Druid/druid.html"> <p class="menu-option">Druid</p> </a>
+          </div>
+
+          <!--Fighter-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Fighter/fighter.html"> <p class="menu-option">Fighter</p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/arcane-archer.html"> <p class="menu-suboption">&#9679; <i>Arcane Archer</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/bannerlord.html"> <p class="menu-suboption">&#9679; <i>Bannerlord </i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/cavalier.html"> <p class="menu-suboption">&#9679; <i>Cavalier</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/champion.html"> <p class="menu-suboption">&#9679; <i>Champion</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/echo-knight.html"> <p class="menu-suboption">&#9679; <i>Echo Knight</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/eldritch-knight.html"> <p class="menu-suboption">&#9679; <i>Eldrith Knight</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/enforcer.html"> <p class="menu-suboption">&#9679; <i>Enforcer</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/gunslinger.html"> <p class="menu-suboption">&#9679; <i>Gunslinger</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/legionnaire.html"> <p class="menu-suboption">&#9679; <i>Legionnaire</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/psi-warrior.html"> <p class="menu-suboption">&#9679; <i>Psi Warrior</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/rune-knight.html"> <p class="menu-suboption">&#9679; <i>Rune Knight</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/samurai.html"> <p class="menu-suboption">&#9679; <i>Samurai</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/spellscorn.html"> <p class="menu-suboption">&#9679; <i>Spellscorn</i> </p> </a>
+            <a class="hide-link" href="classes/Fighter/subclasses/temporal-drifter.html"> <p class="menu-suboption">&#9679; <i>Temporal Drifter</i> </p> </a>
+          </div>
+        </article>
+        <article class="index" id="option">
+          <!--Hemomancer-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Hemomancer/hemomancer.html"> <p class="menu-option">Hemomancer</p> </a>
+          </div>
+
+          <!--Magus-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Magus/magus.html"> <p class="menu-option">Magus</p> </a>
+          </div>
+
+          <!--Monk-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Monk/monk.html"> <p class="menu-option">Monk</p> </a>
+          </div>
+        </article>
+        <article class="index" id="option">
+          <!--Mystic-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Mystic/mystic.html"> <p class="menu-option">Mystic</p> </a>
+          </div>
+
+          <!--Paladin-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Paladin/paladin.html"> <p class="menu-option">Paladin</p> </a>
+          </div>
+
+          <!--Ranger-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Ranger/ranger.html"> <p class="menu-option">Ranger</p> </a>
+          </div>
+        </article>
+        <article class="index" id="option">
+          <!--Rogue-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Rogue/rogue.html"> <p class="menu-option">Rogue</p> </a>
+          </div>
+
+          <!--Savant-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Savant/savant.html"> <p class="menu-option">Savant</p> </a>
+          </div>
+
+          <!--Shaman-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Shaman/shaman.html"> <p class="menu-option">Shaman</p> </a>
+          </div>
+        </article>
+        <article class="index" id="option">
+          <!--Sorcerer-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Sorcerer/sorcerer.html"> <p class="menu-option">Sorcerer</p> </a>
+          </div>
+
+          <!--Warlock-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Warlock/warlock.html"> <p class="menu-option">Warlock</p> </a>
+          </div>
+
+          <!--Wizard-->
+          <div class="menu-category">
+            <a class="hide-link" href="classes/Wizard/wizard.html"> <p class="menu-option">Wizard</p> </a>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <div>
+      <h2 class="menu-header">Races</h2>
+      <section class="container" id="menu">
+        <article class="index" id="option">
+          <!--Aarakocra-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/aarakocra.html"> <p class="menu-option">Aarakocra</p> </a>
+          </div>
+          
+          <!--Bugbear-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/bugbear.html"> <p class="menu-option">Bugbear</p> </a>
+          </div>
+
+          <!--Centaur-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/centaur.html"> <p class="menu-option">Centaur</p> </a>
+          </div>
+
+          <!--Dragonborn-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/dragonborn.html"> <p class="menu-option">Dragonborn</p> </a>
+          </div>
+
+          <!--Dwarf-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/dwarf.html"> <p class="menu-option">Dwarf</p> </a>
+          </div>
+
+          
+        </article>
+        
+        <article class="index" id="option">
+          <!--Elf-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/elf.html"> <p class="menu-option">Elf</p> </a>
+          </div>
+          
+          <!--Enekia Kai-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/enekia-kai.html"> <p class="menu-option">Enekia Kai</p> </a>
+          </div>
+          
+          <!--Fairy-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/fairy.html"> <p class="menu-option">Fairy</p> </a>
+          </div>
+
+          <!--Firbolg-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/firbolg.html"> <p class="menu-option">Firbolg</p> </a>
+          </div>
+
+          <!--Gnome-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/gnome.html"> <p class="menu-option">Gnome</p> </a>
+          </div> 
+        </article>
+          
+        <article class="index" id="option">
+          <!--Goblin-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/goblin.html"> <p class="menu-option">Goblin</p> </a>
+          </div>
+          
+          <!--Goliath-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/goliath.html"> <p class="menu-option">Goliath</p> </a>
+          </div>
+          
+          <!--Grung-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/grung.html"> <p class="menu-option">Grung</p> </a>
+          </div>
+
+          <!--Halfling-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/halfling.html"> <p class="menu-option">Halfling</p> </a>
+          </div>
+
+          <!--Half-Dwarf-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/half-dwarf.html"> <p class="menu-option">Half-Dwarf</p> </a>
+          </div>
+        </article>
+          
+        <article class="index" id="option">
+          <!--Half-Elf-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/half-elf.html"> <p class="menu-option">Half-Elf</p> </a>
+          </div>
+          
+          <!--Half-Orc-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/half-orc.html"> <p class="menu-option">Half-Orc</p> </a>
+          </div>
+          
+          <!--Harengon-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/harengon.html"> <p class="menu-option">Harengon</p> </a>
+          </div>
+
+          <!--Hobgoblin-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/hobgoblin.html"> <p class="menu-option">Hobgoblin</p> </a>
+          </div>
+
+          <!--Human-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/human.html"> <p class="menu-option">Human</p> </a>
+          </div>
+        </article>
+         
+        <article class="index" id="option">
+          <!--Kenku-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/kenku.html"> <p class="menu-option">Kenku</p> </a>
+          </div>
+          
+          <!--Kha'San-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/kha-san.html"> <p class="menu-option">Kha'San</p> </a>
+          </div>
+          
+          <!--Kobold-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/kobold.html"> <p class="menu-option">Kobold</p> </a>
+          </div>
+          
+          <!--Kohgul-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/kohgul.html"> <p class="menu-option">Kohgul</p> </a>
+          </div>
+
+          <!--Leonin-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/leonin.html"> <p class="menu-option">Leonin</p> </a>
+          </div>
+        </article>
+
+        <article class="index" id="option">
+          <!--Lizardfolk-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/lizardfolk.html"> <p class="menu-option">Lizardfolk</p> </a>
+          </div>
+          
+          <!--Locathah-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/locathah.html"> <p class="menu-option">Locathah</p> </a>
+          </div>
+          
+          <!--Merfolk-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/merfolk.html"> <p class="menu-option">Merfolk</p> </a>
+          </div>
+          
+          <!--Minotaur-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/minotaur.html"> <p class="menu-option">Minotaur</p> </a>
+          </div>
+
+          <!--Myceteum-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/myceteum.html"> <p class="menu-option">Myceteum</p> </a>
+          </div>
+        </article>
+
+        <article class="index" id="option">
+          <!--Onçágu-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/oncagu.html"> <p class="menu-option">Onçágu</p> </a>
+          </div>
+
+          <!--Orc-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/orc.html"> <p class="menu-option">Orc</p> </a>
+          </div>
+          
+          <!--Satyr-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/satyr.html"> <p class="menu-option">Satyr</p> </a>
+          </div>
+          
+          <!--Tabaxi-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/tabaxi.html"> <p class="menu-option">Tabaxi</p> </a>
+          </div>
+
+          <!--Tortle-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/tortle.html"> <p class="menu-option">Tortle</p> </a>
+          </div>
+        </article>
+
+        <article class="index" id="option">
+          <!--Triton-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/triton.html"> <p class="menu-option">Triton</p> </a>
+          </div>
+          
+          <!--Vampire-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/vampire.html"> <p class="menu-option">Vampire</p> </a>
+          </div>
+
+          <!--Warforged-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/warforged.html"> <p class="menu-option">Warforged</p> </a>
+          </div>
+
+          <!--Yuan-Ti-->
+          <div class="menu-category">
+            <a class="hide-link" href="races/yuan-ti.html"> <p class="menu-option">Yuan-Ti</p> </a>
+          </div>
+        </article>
+      </section>
+    </div>
   </body>
 </html>

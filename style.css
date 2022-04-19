@@ -29,13 +29,28 @@ h1.site-name {
 article.index {
   margin: auto;
 }
-.menu-subheader {
-  font-family: Draconis;
-  font-size: clamp(50px, 3.5vw, 300px);
+#menu{
+  background-color: rgb(163, 179, 216, 0.2);
+  border: 2px groove rgb(122, 129, 156, 0.3);
 }
-.menu-text {
-  font-family: Bookman;
-  font-size: clamp(30px, 1.8vw, 200px);
+.menu-header {
+  padding-left: 5vw;
+  font-family: Draconis;
+  font-size: clamp(40px, 4.5vw, 300px);
+  margin: auto;
+}
+.menu-category{
+  margin: 0.5vw 0 0.5vw 0;
+}
+.menu-option {
+  font-family: Draconis;
+  font-size: clamp(10px, 3vw, 200px);
+  margin: auto;
+}
+.menu-suboption {
+  font-family: Draconis;
+  font-size: clamp(8px, 2vw, 150px);
+  margin: auto;
 }
 
 /*universal page stuff*/
@@ -52,7 +67,7 @@ h1.home-button {
   font-size: clamp(50px, 4.3vw, 300px);
   padding: 0vw 0px 0px 10vw;
 }
-h2.class-origin{
+h2.class-origin {
   font-family: Draconis;
   font-size: clamp(25px, 2.3vw, 70px);
   font-style: italic;
@@ -67,7 +82,7 @@ p.credits {
   padding: 0px 0px 1.5vw 10vw;
   margin-top: clamp(-40px, -2.5vw, -120px);
 }
-p.fluff{
+p.fluff {
   font-family: Bookman;
   font-size: clamp(15px, 1.1vw, 30px);
   margin-top: clamp(-20px, -1vw, -10px);
