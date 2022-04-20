@@ -4,11 +4,11 @@
 }
 @font-face {
   font-family: MrsEaves;
-  src: url("fonts/MrsEavesSmallCaps.TTF");
+  src: url("fonts/MrsEavesSmallCaps.otf");
 }
 @font-face {
   font-family: Bookman;
-  src: url("fonts/Bookman.TTF");
+  src: url("fonts/Bookman.otf");
 }
 
 a.hide-link {
