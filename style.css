@@ -192,6 +192,9 @@ div.propperty {
   padding-right: 10vw;
   text-align: left;
 }
+div.items{
+  padding-top: 2vw;
+}
 
 /*Features*/
 h2.feature {
