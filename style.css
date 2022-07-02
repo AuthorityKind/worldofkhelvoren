@@ -18,6 +18,10 @@ a.hide-link {
 a {
   text-decoration: none;
 }
+#false-link{
+  text-decoration-line: line-through;
+  color: gray;
+}
 
 /*Index Stuff (mostly)*/
 div.site-name{
