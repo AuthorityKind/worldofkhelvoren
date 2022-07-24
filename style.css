@@ -136,7 +136,6 @@ p.text {
 }
 
 /*Class Table*/
-
 article.class-table {
   font-size: clamp(10px, 1vw, 100px);
   padding-left: 0.6vw;
@@ -240,3 +239,39 @@ table.subclass {
 }
 
 /*Spells & tables likewise*/
+
+
+table.class_table {
+  padding: 1vw 10vw 3vw 10vw;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+p.class_table{
+  font-family: Bookman;
+  font-size: clamp(10px, 1vw, 100px);
+  font-weight: normal;
+  border-bottom: 1px dotted black;
+  margin: auto;
+  padding: 0.1vw 0px 0.1vw 0px;
+}
+
+p.class_table_features{
+  font-family: Bookman;
+  font-size: clamp(10px, 1vw, 100px);
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 1px dotted black;
+  margin: auto;
+  padding: 0.1vw 0px 0.1vw 0px;
+}
+
+p.class_table_header{
+  font-family: Bookman;
+  font-size: clamp(12px, 1.1vw, 100px);
+  font-weight: bold;
+  border-bottom: 3px groove black;
+  margin: auto;
+  padding: 0.1vw 0px 0.1vw 0px;
+}

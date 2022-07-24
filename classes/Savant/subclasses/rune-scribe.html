@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../../../style.css" />
+    <link rel="stylesheet" type="text/css" href="../../class_style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,19 +10,8 @@
     <title>Rune Scribe</title>
 </head>
 <style>
-    section {
-        display: flex;
-        text-align: left;
-        margin: auto;
-        margin-left: -1vw;
-    }
-
-    article {
-        padding: 0px 1vw 0px 1vw;
-    }
-
-    #second-col {
-        max-width: 24vw;
+    div.roster {
+        padding-top: 2vw;
     }
 </style>
 
@@ -47,8 +36,8 @@
 
     <!--Student of Ancient Lore-->
     <div class="feature">
-        <h2 class="feature">Student of Ancient Lore</h2>
-        <p class="feature">
+        <h2>Student of Ancient Lore</h2>
+        <p>
             When you join this Academic Discipline at 3rd level, you gain
             proficiency and expertise in History and with calligrapher's supplies. If you're already proficient in
             History you gain proficiency in another skill from the savant skill list.
@@ -59,12 +48,13 @@
 
     <!--Runes of Power-->
     <div class="feature">
-        <h2 class="feature">Runes of Power</h2>
-        <p class="feature">
+        <h2>Runes of Power</h2>
+        <p>
             At 3rd level, you learn the artful and ancient magic of Runes.
         </p>
-        <p class="feature-saveDC">
-            <strong>Runes Known.</strong> You know two Runes of your choice from
+        <p id="subheader"><strong>Runes Known</strong></p>
+        <p>
+            You know two Runes of your choice from
             the list at the end of this Discipline. Some Runes have a level
             prerequisite, which you can learn when you meet that level.
             You learn an additional Rune of your choice when you
@@ -72,8 +62,9 @@
             When you gain a level in this class, you can replace one of
             the Runes you know with another Rune of your choice.
         </p>
-        <p class="feature-saveDC">
-            <strong>Inscribing Runes.</strong> During the course of a long rest, you
+        <p id="subheader"><strong>Inscribing Runes</strong></p>
+        <p>
+            During the course of a long rest, you
             can spend 1-hour using calligrapher's supplies to inscribe a
             Rune you know onto a non-magical object, inscribing it in a
             Runic Languages you know. A creature that bears an object
@@ -83,26 +74,28 @@
             time, and inscribing it into another object causes the magic
             of any previous inscriptions of that Rune to instantly dispel.
         </p>
-        <p class="feature-saveDC">
-            <strong>Invoking Runes.</strong> A creature that bears an object inscribed
+        <p id="subheader"><strong>Invoking Runes</strong></p>
+        <p>
+            A creature that bears an object inscribed
             with one of your Runes can use an action to invoke the Rune.
             A creature must be able to speak the Runic Language of the
             Rune's inscription in order to invoke the Rune's effect.
             Once a Rune has been invoked, it cannot be invoked again
             until the Rune Scribe that inscribed it finishes a long rest.
         </p>
-        <p class="feature-saveDC">
-            <strong>Runic Casting Modifier.</strong> Intelligence is your Runic casting
+        <p id="subheader"><strong>Runic Casting Modifier</strong></p>
+        <p>
+            Intelligence is your Runic casting
             ability for your Runes, as you unlocked their power through
             years of research. You use Intelligence when a Rune refers to
             your Runic casting ability, when you set the saving throw DC,
             or when you make an attack roll with one of your Runes.
         </p>
-        <p class="feature-saveDC">
+        <p id="saveDC">
             <b>Rune Save DC</b> = 8 + your proficiency bonus
             + your Intelligence modifier
         </p>
-        <p class="feature-saveDC">
+        <p id="saveDC">
             <b>Rune Attack Modifier</b> = your proficiency bonus
             + your Intelligence modifier
         </p>
@@ -110,8 +103,8 @@
 
     <!--Anceint Magics-->
     <div class="feature">
-        <h2 class="feature">Anceint Magics</h2>
-        <p class="feature">
+        <h2>Anceint Magics</h2>
+        <p>
             The innate power of your Runes has grown. Beginning at 6th
             level, any object inscribed with one of your Runes counts as
             magical for as long as the magic of the inscribed Rune lasts.
@@ -124,8 +117,8 @@
 
     <!--Runic Ward-->
     <div class="feature">
-        <h2 class="feature">Runic Ward</h2>
-        <p class="feature">
+        <h2>Runic Ward</h2>
+        <p>
             Your Runes offer a measure of protection to those that bear
             them. Beginning at 13th level, creatures that bear an object
             inscribed with one of your Runes gain a bonus to their saving
@@ -135,8 +128,8 @@
 
     <!--Master Rune Scribe-->
     <div class="feature">
-        <h2 class="feature">Master Rune Scribe</h2>
-        <p class="feature">
+        <h2>Master Rune Scribe</h2>
+        <p>
             You can draw on the magic of your Runes to protect yourself
             when in need. Starting at 17th level, when you are reduced to
             0 hit points but not killed outright, you can draw on the latent
@@ -148,149 +141,174 @@
     <!--Runes-->
     <div class="propperty">
         <h2 class="propperty">Runes</h2>
-        <p class="feature">
+        <p>
             Below are the Runes available for a Rune Scribe to learn. If a
             Rune has a level prerequisite, you can learn that Rune at the
             same time you meet its prerequisite. Some Runes can only
             be inscribed in certain objects as detailed in its description.
         </p>
-        <section class="container">
-            <article class="index">
-                <h2 class="feature">Rune of Enchantment</h2>
-                <p class="feature"> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
-                <p class="feature">
-                    Creatures will treat the bearer of this Runic object one stage
-                    friendlier than they normally would. For example, a neutral
-                    creature would feel compelled to view the bearer as a friend,
-                    and a hostile creature would view the bearer neutrally.
-                    The bearer can invoke this Rune to cast its choice of the
-                    calm emotions, charm person, or command spell, targeting a
-                    total number of creatures equal to your proficiency bonus.
-                </p>
-
-                <h2 class="feature">Rune of Evocation</h2>
-                <p class="feature"> <i>Item: a melee weapon</i></p>
-                <p class="feature">
-                    When the bearer hits a creature with an attack with this
-                    Runic weapon, it deals additional acid, cold, fire, poison, or
-                    lightning damage (their choice) equal to your Intellect Die.
-                    When the bearer of this Rune hits with an attack or casts a
-                    spell that deals acid, cold, fire, poison, or lightning damage, it
-                    can invoke this Rune to cause one target of the attack or spell
-                    to take the maximum possible damage in place of rolling. The bearer must take a long rest to be able
-                    to do so again.
-                </p>
-
-                <h2 class="feature">Rune of Illusion</h2>
-                <p class="feature"> <i>Item: a cloak, robe, or suit of armor</i></p>
-                <p class="feature">
-                    The bearer of this Runic object can use an action to totally
-                    change their appearance, determining the specifics of their
-                    changes, including height and weight, though they cannot
-                    change their size. They can appear as another race, but they
-                    must adopt a form that they have seen before. Their clothing,
-                    including the Runic object, and equipment do not change.
-                    These changes can be detected by a successful Investigation check made against your Runic save DC.
-                    The bearer can invoke this Rune to turn invisible for up to
-                    10 minutes. This invisibility instantly ends if they attack a
-                    creature or force a creature to make a saving throw.
-                </p>
-
-                <h2 class="feature">Rune of Necromancy</h2>
-                <p class="feature"> <i>Item: a belt, ring, or suit of armor</i></p>
-                <p class="feature">
-                    The bearer of this Runic object can use its bonus action to
-                    grant itself temporary hit points equal to your Intelligence
-                    modifier (minimum of 1 temporary hit point).
-                    When the bearer of this Rune is reduced to 0 hit points but
-                    not killed outright, it can invoke the Rune to fall to 1 hit point.
-                </p>
-
-                <h2 class="feature">Rune of Abjuration</h2>
-                <p class="feature"> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a shield, robe, or suit of armor</i></p>
-                <p class="feature">
-                    Once per turn, the bearer of this Runic object can reduce the
-                    damage they take from a spell or another magical effect by an
-                    amount equal to your Intelligence modifier (minimum of 1).
-                    The bearer can invoke this Rune to cast counterspell or
-                    dispel magic at a level equal to your proficiency bonus, using
-                    your Intelligence as the spellcasting ability for these spells.
-                </p>
-            </article>
-            <article class="index">
-                <h2 class="feature">Rune of Conjuration</h2>
-                <p class="feature"> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a belt, ring, or shield</i></p>
-                <p class="feature">
-                    The bearer of this Runic object can use its action to expend
-                    any amount of its remaining movement speed to teleport to
-                    an unoccupied space of their choice it can see within that
-                    distance, without provoking opportunity attacks.
-                    The bearer can invoke this Rune to conjure a creature of
-                    its choice that it has seen before with a CR equal to half your
-                    proficiency bonus or lower. The creature shares the bearer's
-                    initiative in combat and acts immediately after it. The bearer
-                    can use its bonus action to command the creature to move
-                    and take an action from its stat block. The conjured creature
-                    remains for 1 minute or until it is reduced to 0 hit points.
-                </p>
-
-                <h2 class="feature">Rune of Graviturgy</h2>
-                <p class="feature"> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a weapon, shield or piece of armor</i></p>
-                <p class="feature">
-                    When the rune is first imbued into an item, you choose a rightful owner. When any creature but the
-                    rightful owner tries to lift or move the item, it will seem impossbily heavy and be unable to move
-                    the item. The rightful owner may also use a Bonus Action to call the item to their hand (if it is a
-                    weapon or shield) or have it instantly don them (if it is a piece of armor).
-                </p>
-
-                <h2 class="feature">Rune of Chronomancy</h2>
-                <p class="feature"> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
-                <p class="feature">
-                    The bearer of this Runic object has an additional Reaction, which follows the rules of the
-                    additional reactions granted by the Accelerated Reflexes Savant Feature.
-                </p>
-
-                <h2 class="feature">Rune of Divination</h2>
-                <p class="feature"> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a wand, staff, robe, or spellcasting focus</i></p>
-                <p class="feature">
-                    The bearer of this Runic object can cast identify and detect
-                    magic as rituals. It also gains a bonus to Insight
-                    checks equal to your Intelligence modifier (minimum of +1)
-                    When you inscribe this Rune you roll a d20 and record the
-                    result. When a creature within 30 feet of the bearer makes an
-                    attack roll, ability check, or saving throw, the bearer can use
-                    its reaction to replace the creature's d20 roll with the result
-                    of the d20 roll you recorded while inscribing this Rune.
-                </p>
-
-                <h2 class="feature">Rune of Transmutation</h2>
-                <p class="feature"> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
-                <p class="feature"> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
-                <p class="feature">
-                    The bearer of this Runic object gains one of the following
-                    features: a 30-foot swimming speed, a 30-foot climbing speed,
-                    or their walking speed increases by 10 feet. They can use a
-                    bonus action to switch between these three features, but they
-                    can only benefit from one of these features at a time.
-                    The bearer can invoke this Rune to transform into a beast
-                    with a CR equal to your savant level or lower for 1 hour, or
-                    until they use an action to revert to their normal form. They
-                    take on the beast's statistics and hit points, but they retain
-                    their mental ability scores, alignment, and personality. They
-                    are limited in the actions they can perform by the nature of
-                    their new form, and their gear melds into their new form.
-                    When they revert to their normal form, they return to the
-                    number of hit points they had before they transformed. If they
-                    revert as a result of falling to 0 hit points, any excess damage
-                    carries over to their normal form.
-                </p>
-            </article>
-        </section>
+    </div>
+    <div class="roster">
+        <table>
+            <tr>
+                <th>
+                    <h2>Rune of Enchantment</h2>
+                    <p> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
+                    <p>
+                        Creatures will treat the bearer of this Runic object one stage
+                        friendlier than they normally would. For example, a neutral
+                        creature would feel compelled to view the bearer as a friend,
+                        and a hostile creature would view the bearer neutrally.
+                        The bearer can invoke this Rune to cast its choice of the
+                        calm emotions, charm person, or command spell, targeting a
+                        total number of creatures equal to your proficiency bonus.
+                    </p>
+                </th>
+                <th>
+                    <h2>Rune of Conjuration</h2>
+                    <p> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a belt, ring, or shield</i></p>
+                    <p>
+                        The bearer of this Runic object can use its action to expend
+                        any amount of its remaining movement speed to teleport to
+                        an unoccupied space of their choice it can see within that
+                        distance, without provoking opportunity attacks.
+                        The bearer can invoke this Rune to conjure a creature of
+                        its choice that it has seen before with a CR equal to half your
+                        proficiency bonus or lower. The creature shares the bearer's
+                        initiative in combat and acts immediately after it. The bearer
+                        can use its bonus action to command the creature to move
+                        and take an action from its stat block. The conjured creature
+                        remains for 1 minute or until it is reduced to 0 hit points.
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Rune of Evocation</h2>
+                    <p> <i>Item: a melee weapon</i></p>
+                    <p>
+                        When the bearer hits a creature with an attack with this
+                        Runic weapon, it deals additional acid, cold, fire, poison, or
+                        lightning damage (their choice) equal to your Intellect Die.
+                        When the bearer of this Rune hits with an attack or casts a
+                        spell that deals acid, cold, fire, poison, or lightning damage, it
+                        can invoke this Rune to cause one target of the attack or spell
+                        to take the maximum possible damage in place of rolling. The bearer must take a long rest to be
+                        able
+                        to do so again.
+                    </p>
+                </th>
+                <th>
+                    <h2>Rune of Graviturgy</h2>
+                    <p> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a weapon, shield or piece of armor</i></p>
+                    <p>
+                        When the rune is first imbued into an item, you choose a rightful owner. When any creature but
+                        the
+                        rightful owner tries to lift or move the item, it will seem impossbily heavy and be unable to
+                        move
+                        the item. The rightful owner may also use a Bonus Action to call the item to their hand (if it
+                        is a
+                        weapon or shield) or have it instantly don them (if it is a piece of armor).
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Rune of Illusion</h2>
+                    <p> <i>Item: a cloak, robe, or suit of armor</i></p>
+                    <p>
+                        The bearer of this Runic object can use an action to totally
+                        change their appearance, determining the specifics of their
+                        changes, including height and weight, though they cannot
+                        change their size. They can appear as another race, but they
+                        must adopt a form that they have seen before. Their clothing,
+                        including the Runic object, and equipment do not change.
+                        These changes can be detected by a successful Investigation check made against your Runic save
+                        DC.
+                        The bearer can invoke this Rune to turn invisible for up to
+                        10 minutes. This invisibility instantly ends if they attack a
+                        creature or force a creature to make a saving throw.
+                    </p>
+                </th>
+                <th>
+                    <h2>Rune of Chronomancy</h2>
+                    <p> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
+                    <p>
+                        The bearer of this Runic object has an additional Reaction, which follows the rules of the
+                        additional reactions granted by the Accelerated Reflexes Savant Feature.
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Rune of Necromancy</h2>
+                    <p> <i>Item: a belt, ring, or suit of armor</i></p>
+                    <p>
+                        The bearer of this Runic object can use its bonus action to
+                        grant itself temporary hit points equal to your Intelligence
+                        modifier (minimum of 1 temporary hit point).
+                        When the bearer of this Rune is reduced to 0 hit points but
+                        not killed outright, it can invoke the Rune to fall to 1 hit point.
+                    </p>
+                </th>
+                <th>
+                    <h2>Rune of Divination</h2>
+                    <p> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a wand, staff, robe, or spellcasting focus</i></p>
+                    <p>
+                        The bearer of this Runic object can cast identify and detect
+                        magic as rituals. It also gains a bonus to Insight
+                        checks equal to your Intelligence modifier (minimum of +1)
+                        When you inscribe this Rune you roll a d20 and record the
+                        result. When a creature within 30 feet of the bearer makes an
+                        attack roll, ability check, or saving throw, the bearer can use
+                        its reaction to replace the creature's d20 roll with the result
+                        of the d20 roll you recorded while inscribing this Rune.
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <h2>Rune of Abjuration</h2>
+                    <p> <i>Prerequisite: 6th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a shield, robe, or suit of armor</i></p>
+                    <p>
+                        Once per turn, the bearer of this Runic object can reduce the
+                        damage they take from a spell or another magical effect by an
+                        amount equal to your Intelligence modifier (minimum of 1).
+                        The bearer can invoke this Rune to cast counterspell or
+                        dispel magic at a level equal to your proficiency bonus, using
+                        your Intelligence as the spellcasting ability for these spells.
+                    </p>
+                </th>
+                <th>
+                    <h2>Rune of Transmutation</h2>
+                    <p> <i>Prerequisite: 13th-Level Rune Scribe</i></p>
+                    <p> <i>Item: a bracelet, diadem, ring, or necklace</i></p>
+                    <p>
+                        The bearer of this Runic object gains one of the following
+                        features: a 30-foot swimming speed, a 30-foot climbing speed,
+                        or their walking speed increases by 10 feet. They can use a
+                        bonus action to switch between these three features, but they
+                        can only benefit from one of these features at a time.
+                        The bearer can invoke this Rune to transform into a beast
+                        with a CR equal to your savant level or lower for 1 hour, or
+                        until they use an action to revert to their normal form. They
+                        take on the beast's statistics and hit points, but they retain
+                        their mental ability scores, alignment, and personality. They
+                        are limited in the actions they can perform by the nature of
+                        their new form, and their gear melds into their new form.
+                        When they revert to their normal form, they return to the
+                        number of hit points they had before they transformed. If they
+                        revert as a result of falling to 0 hit points, any excess damage
+                        carries over to their normal form.
+                    </p>
+                </th>
+            </tr>
+        </table>
     </div>
 </body>
 

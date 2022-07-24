@@ -1,518 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="../../style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Explore the World of Khelvoren" />
-    <title>Fighting Styles</title>
-  </head>
-  <style>
-    section {
-      display: flex;
-      text-align: left;
-      margin: auto;
-      margin-left: -1vw;
-    }
-    article {
-      padding: 0px 1vw 0px 1vw;
-    }
-    #underline {
-      margin-top: -2vw;
-    }
-    #maneuver-section {
-      padding-top: 5vw;
-    }
-  </style>
-  <body>
-    <a class="hide-link" href="../../index.html">
-      <h1 class="home-button">Khelvoren</h1>
-    </a>
-    <h1 class="page-title">Fighting Styles</h1>
-    <p class="credits">Credit to LaserLlama for many of the Fighting Styles</p>
-    <p class="text" id="underline">
-      These are the Fighting Styles, where each indicates what classes can take
-      them.If a class is marked with an asterisk, it means it is a special
-      subclass that grants them the ability to choose a fighting style. Which
-      subclass grants the fighting style is specified at the Fighting Style, and
-      on the subclass' own page.
-    </p>
 
-    <div class="propperty">
-      <section class="containeer">
-        <article class="index">
+<head>
+  <link rel="stylesheet" type="text/css" href="../class_style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the World of Khelvoren" />
+  <title>Fighting Styles</title>
+</head>
+<style>
+  p.fluff {
+    margin-bottom: 2vw;
+  }
+</style>
+
+<body>
+  <a class="hide-link" href="../../index.html">
+    <h1 class="home-button">Khelvoren</h1>
+  </a>
+  <h1 class="page-title">Fighting Styles</h1>
+  <p class="credits">Credit to LaserLlama for many of the Fighting Styles</p>
+  <p class="fluff">
+    These are the Fighting Styles, where each indicates what classes can take
+    them.If a class is marked with an asterisk, it means it is a special
+    subclass that grants them the ability to choose a fighting style. Which
+    subclass grants the fighting style is specified at the Fighting Style, and
+    on the subclass' own page.
+  </p>
+
+  <div class="roster">
+    <table>
+      <tr>
+        <th>
           <!--Arcane Warrior-->
-          <h2 class="feature">Arcane Warrior</h2>
-          <p class="feature">
-            <b>Effct</b>: You learn two cantrips of your choice from the wizard
+          <h2>Arcane Warrior</h2>
+          <p>
+            <b>Effect</b>: You learn two cantrips of your choice from the wizard
             spell list. They count as Magus spells for you, and Intelligence is
             your spellcasting ability for them. Whenever you gain a level in
             this class, you can replace one of these cantrips with another
             cantrip from the wizard spell list.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Magus/magus.html">Magus</a>
           </p>
-
-          <!--Archery-->
-          <h2 class="feature">Archery</h2>
-          <p class="feature">
-            <b>Effct</b>: You can choose to gain a +2 to all your attack rolls
-            with a ranged weapon attack. Doing so reduces your speed by half
-            until the start of your next turn. You cannot use this if you have
-            moved more than half of your speed this turn.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Magus/magus.html">Magus</a>,
-            <a href="../Paladin/subclasses/oath-of-silence.html"
-              >Oath of Silence Paladin *</a
-            > <a href=""></a>, <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
-          </p>
-
-          <!--Blessed Warrior-->
-          <h2 class="feature">Blessed Warrior</h2>
-          <p class="feature">
-            <b>Effct</b>: You learn two cantrips of your choice from the cleric
-            spell list. They count as paladin spells for you, and Charisma is
-            your spellcasting ability for them. Whenever you gain a level in
-            this class, you can replace one of these cantrips with another
-            cantrip from the cleric spell list.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Blind Fighting-->
-          <h2 class="feature">Blind Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: You have blindsight with a range of 10 feet. Within
-            that range, you can effectively see anything that isn't behind total
-            cover, even if you're blinded or in darkness. Moreover, you can see
-            an invisible creature within that range, unless the creature
-            successfully hides from you.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>
-          </p>
-
-          <!--Close Quarter Shooter-->
-          <h2 class="feature">Close Quarter Shooter</h2>
-          <p class="feature">
-            <b>Effct</b>: When making a ranged attack while you are within 5
-            feet of a hostile creature, you do not have disadvantage on the
-            attack roll. Your ranged attacks ignore half cover and
-            three-quarters cover against targets within 30 feet of you. You have
-            a +1 bonus to damage rolls on ranged attacks.
-          </p>
-          <p class="feature">
-            <b>Available to</b>:
-            <a href="../Bard/subclasses/college-of-battle.html"
-              >College of Battle Bard *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Paladin/subclasses/oath-of-silence.html"
-              >Oath of Silence Paladin *</a
-            >, <a href="../Ranger/ranger.html">Ranger</a>,
-          </p>
-
-          <!--Defense-->
-          <h2 class="feature">Defense</h2>
-          <p class="feature">
-            <b>Effct</b>: While you are wearing armor, you gain a +1 bonus to
-            AC.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Magus/magus.html">Magus</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Druidic Warrior-->
-          <h2 class="feature">Druidic Warrior</h2>
-          <p class="feature">
-            <b>Effct</b>: You learn two cantrips of your choice from the druid
-            spell list. They count as ranger spells for you, and Wisdom is your
-            spellcasting ability for them. Whenever you gain a level in this
-            class, you can replace one of these cantrips with another cantrip
-            from the druid spell list.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Ranger/ranger.html">Ranger</a>
-          </p>
-
-          <!--Dueling-->
-          <h2 class="feature">Dueling</h2>
-          <p class="feature">
-            <b>Effct</b>: When you are wielding a melee weapon in one hand and
-            no other weapons, you gain a +2 bonus to damage rolls with that
-            weapon.
-          </p>
-          <p class="feature">
-            <b>Available to</b>:
-            <a href="../Bard/subclasses/college-of-battle.html"
-              >College of Battle Bard *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Magus/magus.html">Magus</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>,
-            <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
-          </p>
-
+        </th>
+        <th>
           <!--Featherweight Fighting-->
-          <h2 class="feature">Featherweight Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: You are an expert at staying on your toes, and moving
+          <h2>Featherweight Fighting</h2>
+          <p>
+            <b>Effect</b>: You are an expert at staying on your toes, and moving
             quickly about the battlefield. As long as you are not wearing medium
             or heavy armor or using a shield, and only wielding light weapons,
             you gain a +2 bonus to your damage rolls with light weapons, and
             your movement speed increases by 5ft.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>:
-            <a href="../Bard/subclasses/college-of-battle.html"
-              >College of Battle Bard *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Bard/subclasses/college-of-battle.html">College of Battle Bard *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
             <a href="../Ranger/ranger.html">Ranger</a>,
             <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
           </p>
-
-          
-          </p>
-        </article>
-        <article class="index">
-        
-        <!--Finesse Fighting-->
-        <h2 class="feature">Finesse Fighting</h2>
-        <p class="feature">
-          <b>Effct</b>: You have trained in the classical art of light
-          swordplay. When wielding a finesse weapon in one hand, and nothing
-          in your other hand, you gain a +1 bonus to both your attack rolls
-          and a +1 bonus to your Armor Class.
-        </p>
-        <p class="feature">
-          <b>Available to</b>:
-          <a href="../Fighter/fighter.html">Fighter</a>,
-          <a href="../Ranger/ranger.html">Ranger</a>
-
-          <!--Grappler-->
-          <h2 class="feature">Grappler</h2>
-          <p class="feature">
-            <b>Effct</b>: When you hit a creature with a melee weapon attack,
-            you can use a bonus action on that turn to attempt to grapple them.
-            You must have a free hand in order to initiate the grapple. In
-            addition, you can drag a grappled creature up to your full movement
-            speed if they are your size or smaller.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>
-          </p>
-
-          <!--Great Weapon Fighting-->
-          <h2 class="feature">Great Weapon Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: While you are wielding a heavy weapon you get +2 to
-            your damage rolls, and you have advantage on Athletics checks to
-            shove
-          </p>
-          <p class="feature">
-            <b>Available to</b>:
-            <a href="../Barbarian/subclasses/path-of-the-berserker.html"
-              >Path of the Berserker Barbarian *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>,
-          </p>
-
-          <!--Heavy Attacks-->
-          <h2 class="feature">Heavy Attacks</h2>
-          <p class="feature">
-            <b>Effct</b>: When you roll a 1 or 2 on a damage die for an attack
-            you make with a melee weapon that you are wielding with two hands,
-            you can reroll the die and must use the new roll, even if the new
-            roll is a 1 or a 2. You must be using both hands to wield it.
-          </p>
-          <p class="feature">
-            <b>Available to</b>:
-            <a href="../Barbarian/subclasses/path-of-the-berserker.html"
-              >Path of the Berserker Barbarian *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
-            <a href="../Magus/magus.html">Magus</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Improvised Fighting-->
-          <h2 class="feature">Improvised Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: You are a maser of fighting dirty and underhanded. You
-            gain proficiency with improvised weapons. Once per turn, when you
-            make an attack using a non-magical improvised weapon, you can choose
-            to add two more of the weapon's damage dice. When you do this the
-            improvised weapon is destroyed and rendered useless for any further
-            attacks.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>
-          </p>
-
-          <!--Interception-->
-          <h2 class="feature">Interception</h2>
-          <p class="feature">
-            <b>Effct</b>: When a creature you can see hits you or a target that
-            is within 5 feet of you with an attack, you can use your reaction to
-            reduce the damage the target takes by 1d10 + twice your proficiency
-            bonus (to a minimum of 0 damage). You must be wielding a shield or a
-            simple or martial weapon to use this reaction.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>
-          </p>
-
-          <!--Lucky Strike-->
-          <h2 class="feature">Lucky Strike</h2>
-          <p class="feature">
-            <b>Effct</b>:When you score a critical with your weapon attacks, you
-            can add 1 more of your weapon's damage dice to the damage roll.
-          </p>
-          <p class="feature">
-            <b>Available to</b>:
-            <a href="../Barbarian/subclasses/path-of-the-berserker.html"
-              >Path of the Berserker Barbarian *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>
-          </p>
-
+        </th>
+        <th>
           <!--Mariner-->
-          <h2 class="feature">Mariner</h2>
-          <p class="feature">
-            <b>Effct</b>: As long as you not wearing heavy armor or using a
+          <h2>Mariner</h2>
+          <p>
+            <b>Effect</b>: As long as you not wearing heavy armor or using a
             shield, you have a swimming speed and a climbing speed equal to your
             normal speed, and you gain a +1 bonus to armor class.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Ranger/ranger.html">Ranger</a>
           </p>
-          <!--Marksmanship-->
-          <h2 class="feature">Marksmanship</h2>
-          <p class="feature">
-            <b>Effct</b>: The normal range of your ranged weapon attacks is
-            increased by a number of feet equal to 5 times your Proficiency
-            Bonus, and the long-range is increased by a number of feet equal to
-            15 times your Proficiency Bonus.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Paladin/subclasses/oath-of-silence.html"
-              >Oath of Silence Paladin *</a
-            >
-          </p>
-
-          <!--Mounted Warrior-->
-          <h2 class="feature">Mounted Warrior</h2>
-          <p class="feature">
-            <b>Effct</b>: Once per turn, when you hit a creature with a melee
-            attack while riding a mount, you can force the target to make a
-            Strength saving throw. Save DC = 8 + your proficiency bonus + your
-            Strength modifier. On a failure, it is knocked prone.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Natural Weaponeer-->
-          <h2 class="feature">Natural Weaponeer</h2>
-          <p class="feature">
-            <b>Effct</b>: If you have a natural weapon in each hand, like claws,
-            they have the finesse and light property for the purposes of
-            two-weapon fighting. Additionally, you get a +1 to damage roll with
-            natural weapons.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>
-          </p>
-        </article>
-        <article class="index">
-          <!--Piercing Shot-->
-          <h2 class="feature">Piercing Shot</h2>
-          <p class="feature">
-            <b>Effct</b>: You get +2 to damage rolls with two-handed ranged
-            weapons
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Ranger/ranger.html">Ranger</a>,
-            <a href="../Paladin/subclasses/oath-of-silence.html"
-              >Oath of Silence Paladin *</a
-            >
-          </p>
-
-          <!--Power Attack-->
-          <h2 class="feature">Power Attack</h2>
-          <p class="feature">
-            <b>Effct</b>: When you make a melee attack with a weapon you are
-            proficient with, before you make the attack roll, you can choose not
-            to add your proficiency bonus to the attack roll. If the attack
-            hits, you add double your proficiency bonus to the attack's damage.
-            You cannot do this if you are using the finesse property of the
-            weapon.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Protection-->
-          <h2 class="feature">Protection</h2>
-          <p class="feature">
-            <b>Effct</b>: When a creature you can see attacks a target other
-            than you that is within 5 feet of you, you can use your reaction to
-            impose disadvantage on the attack roll. You must be wielding a
-            shield.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Paladin/paladin.html">Paladin</a>
-          </p>
-
-          <!--Quick Loader-->
-          <h2 class="feature">Quick Loader</h2>
-          <p class="feature">
-            <b>Effct</b>: You ignore the loading property and you get a +1 to
-            your damage rolls with weapons that have the loading property.
-          </p>
-          <p class="feature">
-            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
-            <a href="../Paladin/subclasses/oath-of-silence.html"
-              >Oath of Silence Paladin *</a
-            >
-          </p>
-
+        </th>
+        <th>
           <!--Shielded Warrior-->
-          <h2 class="feature">Shielded Warrior</h2>
-          <p class="feature">
-            <b>Effct</b>: Shields that are in your hands are also a weapon that
+          <h2>Shielded Warrior</h2>
+          <p>
+            <b>Effect</b>: Shields that are in your hands are also a weapon that
             deal 1d4 bludgeoning (if it is a light shield) and 1d6 bludgeoning
             (if it is a medium or heavy shield). They also have the nonlethal
             trait.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>:
-            <a href="../Barbarian/subclasses/path-of-the-berserker.html"
-              >Path of the Berserker Barbarian *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Barbarian/subclasses/path-of-the-berserker.html">Path of the Berserker Barbarian *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Paladin/paladin.html">Paladin</a>
           </p>
-
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Archery-->
+          <h2>Archery</h2>
+          <p>
+            <b>Effect</b>: You can choose to gain a +2 to all your attack rolls
+            with a ranged weapon attack. Doing so reduces your speed by half
+            until the start of your next turn. You cannot use this if you have
+            moved more than half of your speed this turn.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Magus/magus.html">Magus</a>,
+            <a href="../Paladin/subclasses/oath-of-silence.html">Oath of Silence Paladin *</a> <a href=""></a>, <a
+              href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
+          </p>
+        </th>
+        <th>
+          <!--Finesse Fighting-->
+          <h2>Finesse Fighting</h2>
+          <p>
+            <b>Effect</b>: You have trained in the classical art of light
+            swordplay. When wielding a finesse weapon in one hand, and nothing
+            in your other hand, you gain a +1 bonus to both your attack rolls
+            and a +1 bonus to your Armor Class.
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>
+          </p>
+        </th>
+        <th>
+          <!--Marksmanship-->
+          <h2>Marksmanship</h2>
+          <p>
+            <b>Effect</b>: The normal range of your ranged weapon attacks with weapons with either the Range or Thrown
+            propperty is increased by a number of feet equal to 5 times your Proficiency
+            Bonus, and the long-range is increased by a number of feet equal to
+            15 times your Proficiency Bonus.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Paladin/subclasses/oath-of-silence.html">Oath of Silence Paladin *</a>
+          </p>
+        </th>
+        <th>
           <!--Slick Punches-->
-          <h2 class="feature">Slick Punches</h2>
-          <p class="feature">
-            <b>Effct</b>: Your unarmed attacks have the finesse property.
+          <h2>Slick Punches</h2>
+          <p>
+            <b>Effect</b>: Your unarmed attacks have the finesse property.
             Additionally, on your turn, if neither of your hands is wielding
             anything, you can choose to expend half of your movement speed, if
             available, to give your hands the Parry trait until the start of
             your next turn. It counts as wielding two weapons with the Parry
             property when using this ability.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Ranger/ranger.html">Ranger</a>,
             <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
           </p>
-
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Blessed Warrior-->
+          <h2>Blessed Warrior</h2>
+          <p>
+            <b>Effect</b>: You learn two cantrips of your choice from the cleric
+            spell list. They count as paladin spells for you, and Charisma is
+            your spellcasting ability for them. Whenever you gain a level in
+            this class, you can replace one of these cantrips with another
+            cantrip from the cleric spell list.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
+          <!--Grappler-->
+          <h2>Grappler</h2>
+          <p>
+            <b>Effect</b>: When you hit a creature with a melee weapon attack,
+            you can use a bonus action on that turn to attempt to grapple them.
+            You must have a free hand in order to initiate the grapple. In
+            addition, you can drag a grappled creature up to your full movement
+            speed if they are your size or smaller.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>
+          </p>
+        </th>
+        <th>
+          <!--Mounted Warrior-->
+          <h2>Mounted Warrior</h2>
+          <p>
+            <b>Effect</b>: Once per turn, when you hit a creature with a melee
+            attack while riding a mount, you can force the target to make a
+            Strength saving throw. Save DC = 8 + your proficiency bonus + your
+            Strength modifier. On a failure, it is knocked prone.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
           <!--Tunnel Fightingr-->
-          <h2 class="feature">Tunnel Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: Once per turn, you can make an opportunity attack
+          <h2>Tunnel Fighting</h2>
+          <p>
+            <b>Effect</b>: Once per turn, you can make an opportunity attack
             without using your reaction.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Paladin/paladin.html">Paladin</a>
             <a href="../Ranger/ranger.html">Ranger</a>
           </p>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Blind Fighting-->
+          <h2>Blind Fighting</h2>
+          <p>
+            <b>Effect</b>: You have blindsight with a range of 10 feet. Within
+            that range, you can effectively see anything that isn't behind total
+            cover, even if you're blinded or in darkness. Moreover, you can see
+            an invisible creature within that range, unless the creature
+            successfully hides from you.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>
+          </p>
+        </th>
+        <th>
+          <!--Great Weapon Fighting-->
+          <h2>Great Weapon Fighting</h2>
+          <p>
+            <b>Effect</b>: While you are wielding a heavy weapon you get +2 to
+            your damage rolls, and you have advantage on Athletics checks to
+            shove
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Barbarian/subclasses/path-of-the-berserker.html">Path of the Berserker Barbarian *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>,
+          </p>
+        </th>
+        <th>
+          <!--Natural Weaponeer-->
+          <h2>Natural Weaponeer</h2>
+          <p>
+            <b>Effect</b>: If you have a natural weapon in each hand, like claws,
+            they have the finesse and light property for the purposes of
+            two-weapon fighting. Additionally, you get a +1 to damage roll with
+            natural weapons.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>
+          </p>
+        </th>
+        <th>
           <!--Thrown Weapon Fighting-->
-          <h2 class="feature">Thrown Weapon Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: You can draw a weapon that has the thrown property as
+          <h2>Thrown Weapon Fighting</h2>
+          <p>
+            <b>Effect</b>: You can draw a weapon that has the thrown property as
             part of the attack you make with the weapon. In addition, when you
             hit with a ranged attack using a thrown weapon, you gain a +2 bonus
             to the damage roll.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Ranger/ranger.html">Ranger</a>
           </p>
-
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Close Quarter Shooter-->
+          <h2>Close Quarter Shooter</h2>
+          <p>
+            <b>Effect</b>: When making a ranged attack while you are within 5
+            feet of a hostile creature, you do not have disadvantage on the
+            attack roll. Your ranged attacks ignore half cover and
+            three-quarters cover against targets within 30 feet of you. You have
+            a +1 bonus to damage rolls on ranged attacks.
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Bard/subclasses/college-of-battle.html">College of Battle Bard *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Paladin/subclasses/oath-of-silence.html">Oath of Silence Paladin *</a>, <a
+              href="../Ranger/ranger.html">Ranger</a>,
+          </p>
+        </th>
+        <th>
+          <!--Heavy Attacks-->
+          <h2>Heavy Attacks</h2>
+          <p>
+            <b>Effect</b>: When you roll a 1 or 2 on a damage die for an attack
+            you make with a melee weapon that you are wielding with two hands,
+            you can reroll the die and must use the new roll, even if the new
+            roll is a 1 or a 2. You must be using both hands to wield it.
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Barbarian/subclasses/path-of-the-berserker.html">Path of the Berserker Barbarian *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Magus/magus.html">Magus</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
+          <!--Piercing Shot-->
+          <h2>Piercing Shot</h2>
+          <p>
+            <b>Effect</b>: You get +2 to damage rolls with two-handed ranged
+            weapons
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Paladin/subclasses/oath-of-silence.html">Oath of Silence Paladin *</a>
+          </p>
+        </th>
+        <th>
           <!--Two Weapon Fighting-->
-          <h2 class="feature">Two Weapon Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: When you engage in two-weapon fighting, you can add
+          <h2>Two Weapon Fighting</h2>
+          <p>
+            <b>Effect</b>: When you engage in two-weapon fighting, you can add
             your ability modifier to the damage of the second attack.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>:
-            <a href="../Bard/subclasses/college-of-battle.html"
-              >College of Battle Bard *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Bard/subclasses/college-of-battle.html">College of Battle Bard *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
             <a href="../Magus/magus.html">Magus</a>,
             <a href="../Ranger/ranger.html">Ranger</a>,
             <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>,
             <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
           </p>
-
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Defense-->
+          <h2>Defense</h2>
+          <p>
+            <b>Effect</b>: While you are wearing armor, you gain a +1 bonus to
+            AC.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Magus/magus.html">Magus</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
+          <!--Improvised Fighting-->
+          <h2>Improvised Fighting</h2>
+          <p>
+            <b>Effect</b>: You are a maser of fighting dirty and underhanded. You
+            gain proficiency with improvised weapons. Once per turn, when you
+            make an attack using a non-magical improvised weapon, you can choose
+            to add two more of the weapon's damage dice. When you do this the
+            improvised weapon is destroyed and rendered useless for any further
+            attacks.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>
+          </p>
+        </th>
+        <th>
+          <!--Power Attack-->
+          <h2>Power Attack</h2>
+          <p>
+            <b>Effect</b>: When you make a melee attack with a weapon you are
+            proficient with, before you make the attack roll, you can choose not
+            to add your proficiency bonus to the attack roll. If the attack
+            hits, you add double your proficiency bonus to the attack's damage.
+            You cannot do this if you are using the finesse property of the
+            weapon.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
           <!--Unarmed Fighting-->
-          <h2 class="feature">Unarmed Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: Your unarmed strikes can deal bludgeoning damage equal
+          <h2>Unarmed Fighting</h2>
+          <p>
+            <b>Effect</b>: Your unarmed strikes can deal bludgeoning damage equal
             to 1d6 + your Strength modifier. When you successfully start a
             grapple, you can deal 1d4 bludgeoning damage to the grappled
             creature. Until the grapple ends, you can also deal this damage to
             the creature whenever you hit it with a melee attack.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>:
-            <a href="../Barbarian/subclasses/path-of-the-berserker.html"
-              >Path of the Berserker Barbarian *</a
-            >, <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Barbarian/subclasses/path-of-the-berserker.html">Path of the Berserker Barbarian *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Ranger/ranger.html">Ranger</a>
           </p>
-
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Druidic Warrior-->
+          <h2>Druidic Warrior</h2>
+          <p>
+            <b>Effect</b>: You learn two cantrips of your choice from the druid
+            spell list. They count as ranger spells for you, and Wisdom is your
+            spellcasting ability for them. Whenever you gain a level in this
+            class, you can replace one of these cantrips with another cantrip
+            from the druid spell list.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Ranger/ranger.html">Ranger</a>
+          </p>
+        </th>
+        <th>
+          <!--Interception-->
+          <h2>Interception</h2>
+          <p>
+            <b>Effect</b>: When a creature you can see hits you or a target that
+            is within 5 feet of you with an attack, you can use your reaction to
+            reduce the damage the target takes by 1d10 + twice your proficiency
+            bonus (to a minimum of 0 damage). You must be wielding a shield or a
+            simple or martial weapon to use this reaction.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>
+          </p>
+        </th>
+        <th>
+          <!--Protection-->
+          <h2>Protection</h2>
+          <p>
+            <b>Effect</b>: When a creature you can see attacks a target other
+            than you that is within 5 feet of you, you can use your reaction to
+            impose disadvantage on the attack roll. You must be wielding a
+            shield.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>
+          </p>
+        </th>
+        <th>
           <!--Versatile Fighting-->
-          <h2 class="feature">Versatile Fighting</h2>
-          <p class="feature">
-            <b>Effct</b>: When wielding a versatile weapon, you gain a +1 bonus
+          <h2>Versatile Fighting</h2>
+          <p>
+            <b>Effect</b>: When wielding a versatile weapon, you gain a +1 bonus
             to attack rolls when wielding it one-handed, and a +1 bonus to
             damage rolls when wielding it two-handed. In addition, as a bonus
             action, you can use your free hand to make an unarmed strike or
             shove action.
           </p>
-          <p class="feature">
+          <p>
             <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
             <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
             <a href="../Magus/magus.html">Magus</a>,
             <a href="../Paladin/paladin.html">Paladin</a>,
             <a href="../Ranger/ranger.html">Ranger</a>
           </p>
-        </article>
-      </section>
-    </div>
-  </body>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <!--Dueling-->
+          <h2>Dueling</h2>
+          <p>
+            <b>Effect</b>: When you are wielding a melee weapon in one hand and
+            no other weapons, you gain a +2 bonus to damage rolls with that
+            weapon.
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Bard/subclasses/college-of-battle.html">College of Battle Bard *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Hemomancer/hemomancer.html">Hemomancer</a>,
+            <a href="../Magus/magus.html">Magus</a>,
+            <a href="../Paladin/paladin.html">Paladin</a>,
+            <a href="../Ranger/ranger.html">Ranger</a>,
+            <a href="../Rogue/subclasses/assailant.html">Assailant Rogue *</a>,
+            <a href="../Rogue/subclasses/vigilante.html">Vigilante Rogue *</a>
+          </p>
+        </th>
+        <th>
+          <!--Lucky Strike-->
+          <h2>Lucky Strike</h2>
+          <p>
+            <b>Effect</b>:When you score a critical with your weapon attacks, you
+            can add 1 more of your weapon's damage dice to the damage roll.
+          </p>
+          <p>
+            <b>Available to</b>:
+            <a href="../Barbarian/subclasses/path-of-the-berserker.html">Path of the Berserker Barbarian *</a>, <a
+              href="../Fighter/fighter.html">Fighter</a>
+          </p>
+        </th>
+        <th>
+          <!--Quick Loader-->
+          <h2>Quick Loader</h2>
+          <p>
+            <b>Effect</b>: You ignore the loading property and you get a +1 to
+            your damage rolls with weapons that have the loading property.
+          </p>
+          <p>
+            <b>Available to</b>: <a href="../Fighter/fighter.html">Fighter</a>,
+            <a href="../Paladin/subclasses/oath-of-silence.html">Oath of Silence Paladin *</a>
+          </p>
+        </th>
+      </tr>
+    </table>
+  </div>
+</body>
+
 </html>

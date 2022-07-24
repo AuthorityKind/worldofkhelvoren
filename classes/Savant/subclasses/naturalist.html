@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="../../../style.css" />
+    <link rel="stylesheet" type="text/css" href="../../class_style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,14 +30,14 @@
 
     <!--Student of Nature-->
     <div class="feature">
-        <h2 class="feature">Student of Nature</h2>
-        <p class="feature">
+        <h2>Student of Nature</h2>
+        <p>
             When you join this Academic Discipline at 3rd level, you gain
             proficiency and expertise in Nature and Survival. If
             you are already proficient in either skill you gain proficiency
             in another skill of your choice from the savant skill list
         </p>
-        <p class="feature">
+        <p>
             Also, during a long rest, you can spend 1 hour studying and
             taking notes on your environment. So long as you have these
             notes, you have advantage on Intelligence or Wisdom checks
@@ -47,8 +47,8 @@
 
     <!--Survivalist-->
     <div class="feature">
-        <h2 class="feature">Survivalist</h2>
-        <p class="feature">
+        <h2>Survivalist</h2>
+        <p>
             You have the knowledge and skills to survive and thrive in the
             wild. Starting at 3rd level, as part of a short or long rest, you
             can spend 1 hour gathering materials from the surrounding
@@ -61,9 +61,9 @@
             the space must succeed on a Dexterity saving throw against
             your Naturalist save DC or be restrained by your snare.
         </p>
-        <p class="feature-saveDC"><b>Naturalist Save DC</b> = 8 + your proficiency bonus
+        <p id="saveDC"><b>Naturalist Save DC</b> = 8 + your proficiency bonus
             + your Intelligence modifier</p>
-        <p class="feature">
+        <p>
             As an action, the restrained creature can repeat the saving
             throw, ending the effect on a success. A creature can detect a
             snare by making a successful Intelligence (Investigation) or
@@ -73,36 +73,41 @@
 
     <!--Adapt & Overcome-->
     <div class="feature">
-        <h2 class="feature">Adapt & Overcome</h2>
-        <p class="feature">
+        <h2>Adapt & Overcome</h2>
+        <p>
             Starting at 6th level, you can train others to survive in the wild. At the end of each short or long rest,
             you, and a number of creatures equal to your Intelligence
             modifier (minimum of 1 creature), gain one of the following
-            features until the end of your next short or long rest
+            features until the end of your next short or long rest.
         </p>
-        <p class="feature-saveDC">
-            <strong>Concealment Training.</strong> While in natural environments,
+        <p id="subheader"><strong>Concealment Training</strong></p>
+        <p>
+            While in natural environments,
             creatures can move stealthily at a normal pace and have
             advantage on Stealth checks they make to hide.
         </p>
-        <p class="feature-saveDC">
-            <strong>Diver Training.</strong> Creatures gain a swimming speed equal to
+        <p id="subheader"><strong>Diver Training</strong></p>
+        <p>
+            Creatures gain a swimming speed equal to
             their walking speed and can hold their breath underwater for
             a number of minutes equal to their Constitution modifier +
             your Intelligence modifier (minimum of 1 minute).
         </p>
-        <p class="feature-saveDC">
-            <strong>Endurance Training.</strong> Creatures can ignore the effects of
+        <p id="subheader"><strong>Endurance Training</strong></p>
+        <p>
+            Creatures can ignore the effects of
             difficult terrain imposed by natural environments and have
             advantage on saving throws to avoid exhaustion
         </p>
-        <p class="feature-saveDC">
-            <strong>Mountaineer Training.</strong> Creatures gain a climbing speed
+        <p id="subheader"><strong>Mountaineer Training</strong></p>
+        <p>
+            Creatures gain a climbing speed
             equal to their walking speed and they reduce any falling
             damage they take by an amount equal to your savant level.
         </p>
-        <p class="feature-saveDC">
-            <strong>Resilience Training.</strong> Creatures have advantage on saving
+        <p id="subheader"><strong>Resilience Training</strong></p>
+        <p>
+            Creatures have advantage on saving
             throws to resist the effects of extreme environments and gain
             resistance to either cold, fire, poison, or thunder damage
         </p>
@@ -110,27 +115,27 @@
 
     <!--Call of the Wild-->
     <div class="feature">
-        <h2 class="feature">Call of the Wild</h2>
-        <p class="feature">
+        <h2>Call of the Wild</h2>
+        <p>
             Starting at 13th level, you can tame almost any wild creature.
             As an action, you can force a beast, plant, or monstrosity that
             can hear you within 30 feet to make a Wisdom saving throw
             against your Naturalist save DC or be charmed for 1 hour.
         </p>
-        <p class="feature">
+        <p>
             While charmed, the creature is friendly to you and your
             allies and shares your turn in combat. As a bonus action, you
             can issue a simple command to the creature, which it does its
             best to obey. Once it completes a command it will defend
             itself to the best of its ability until you command it again.
         </p>
-        <p class="feature">
+        <p>
             Each time the creature takes damage, it can repeat the
             Wisdom saving throw, ending the charm on a success. If you
             are within 30 feet of the creature and it can hear you, you can
             use your reaction to impose disadvantage on its saving throw.
         </p>
-        <p class="feature">
+        <p>
             You can only have one creature charmed in this way at a
             time. Attempting to charm a second creature ends the effect
             for the first. You may use this feature a number of times equal
@@ -141,21 +146,21 @@
 
     <!--Master Naturalist-->
     <div class="feature">
-        <h2 class="feature">Master Naturalist</h2>
-        <p class="feature">
+        <h2>Master Naturalist</h2>
+        <p>
             You have become a leading authority on the natural world
             and can maneuver with comfort in any environment. Upon
             reaching 17th level, you gain the following benefits
         </p>
-        <p class="feature-saveDC">&#9679; Whenever you make an Intelligence check related to an
+        <p id="indent">&bull; Whenever you make an Intelligence check related to an
             environment you studied as part of Student of Nature, you can substitute your d20 roll with your savant
             level.</p>
-        <p class="feature-saveDC">&#9679; You gain the benefits of all Adapt & Overcome features</p>
-        <p class="feature-saveDC">&#9679; When you make an ability check or saving throw that uses
+        <p id="indent">&bull; You gain the benefits of all Adapt & Overcome features</p>
+        <p id="indent">&bull; When you make an ability check or saving throw that uses
             your Dexterity, you can add an Intellect Die to your roll.</p>
-        <p class="feature-saveDC">&#9679; Creatures with an Intelligence score of 10 or lower have
+        <p id="indent">&bull; Creatures with an Intelligence score of 10 or lower have
             disadvantage on saving throws to resist Call of the Wild.</p>
-        <p class="feature-saveDC">&#9679; The duration of Call of the Wild increases to 24 hours.</p>
+        <p id="indent">&bull; The duration of Call of the Wild increases to 24 hours.</p>
     </div>
 </body>
 
